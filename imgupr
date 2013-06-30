@@ -3,7 +3,7 @@
 # imgupr // imgur uploader
 # (c) 2012, Vid Maric // esdf
 
-apikey=7f0214864ecf8fd7e316d5feba701eef
+apikey=
 tmpfile=$HOME/.imguprtemp
 
 curl -s -F "image=@$1" -F "key=$apikey" http://api.imgur.com/2/upload.xml > $tmpfile
